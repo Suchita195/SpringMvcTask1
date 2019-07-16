@@ -1,5 +1,9 @@
 <html>
 <body>
-<a href="hello">Click Here</a>
+<form action="hello" method="POST">
+User Name:<input type="text" name="name"/><br><br><br>
+User Password:<input type="text" name="password"/><br><br><br>
+<input type="submit" name="submit"/>
+</form>
 </body>
 </html>
